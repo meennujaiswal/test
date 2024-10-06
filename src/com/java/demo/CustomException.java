@@ -11,7 +11,7 @@ public class CustomException {
       
         	CustomException exception = new CustomException();
         	exception.someMethodThrowsException();
-        } catch (Exception | MyException e) {
+        } catch (Exception e) {
             System.out.println(e.getMessage());
         }
     }
